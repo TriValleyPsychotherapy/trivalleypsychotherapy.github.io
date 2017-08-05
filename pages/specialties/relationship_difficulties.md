@@ -1,3 +1,13 @@
+---
+layout: page
+title: Relationship Difficulties
+menuInclude: yes
+menuLink: yes
+menuTopTitle: Specialties
+menuSubTitle: "Relationship Difficulties"
+excerpt: A short introduction to the content of this site.
+# end of description at 156 characters ----------| (last 3 chars will be replaced by '...' on overflow)
+---
 
 <p>What's wrong can often be made right. Difficulties in your relationship can be used as lessons; you can choose to learn from them, and find better ways to relate to each other. It's the rare relationship that doesn't run into a few bumps in the road. If you recognize ahead of time what those relationship difficulties can be, you'll have a much better chance of weathering the storm.</p>
 
@@ -18,4 +28,4 @@ Below are 7 of the most common relationship problems that couples experience:
 </ul>
 Dr. Christine Dickson, Ph.D. knows the importance of helping you improve your relationship. Don't keep making the same mistakes over and over. Work with psychotherapist, Dr. Christine Dickson to create the relationship of your dreams. </p>
 
-<p><%= render :partial => "pages/call_for_appointment" %></p>
+{% include call-for-appointment.md %}

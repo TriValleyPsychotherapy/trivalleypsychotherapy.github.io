@@ -1,6 +1,13 @@
-<div class="panel-heading"><h2 class="panel-title">Depression</h2></div>
-
-<div class="panel-body">
+---
+layout: page
+title: Depression
+menuInclude: yes
+menuLink: yes
+menuTopTitle: Specialties
+menuSubTitle: "Depression"
+excerpt: A short introduction to the content of this site.
+# end of description at 156 characters ----------| (last 3 chars will be replaced by '...' on overflow)
+---
 
 <p>Depression is one of the most common of human problems. According to statistics provided by the National Institute of Mental Health, in any given year, at least 19 million Americans (9.5% of the population) experience some form of clinical depression. It is estimated that about half of all men and three-quarters of all women have had a bout with depression at some point during their lifetime.</p> 
 
@@ -14,6 +21,4 @@
 
 <p>If you or someone you know needs help with depression, Dr. Christine Dickson, Ph.D. is here for you. Work with psychotherapist, Dr. Christine Dickson to break from the dark cloud depression has set on your life.</p>
 
-<p><%= render :partial => "pages/call_for_appointment" %></p>
-
-</div>
+{% include call-for-appointment.md %}

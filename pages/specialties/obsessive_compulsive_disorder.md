@@ -1,4 +1,13 @@
-
+---
+layout: page
+title: Obsessive Compulsive Disorder"
+menuInclude: yes
+menuLink: yes
+menuTopTitle: Specialties
+menuSubTitle: "Obsessive Compulsive Disorder"
+excerpt: A short introduction to the content of this site.
+# end of description at 156 characters ----------| (last 3 chars will be replaced by '...' on overflow)
+---
 <p>Obsessive-compulsive disorder (OCD) is a potentially disabling illness that traps people in endless cycles of repetitive thoughts and behaviors. People with OCD are plagued by recurring and distressing thoughts, fears, or images (obsessions) that they cannot control. The anxiety (nervousness) produced by these thoughts leads to an urgent need to perform certain rituals or routines (compulsions). The compulsive rituals are performed in an attempt to prevent the obsessive thoughts or make them go away.</p>
 
 <center>
@@ -11,5 +20,5 @@
 
 <p>If you or someone you know is struggling with OCD, Dr. Christine Dickson, Ph.D. can help. Work with psychotherapist, Dr. Christine Dickson to confront your fears and reduce anxiety without performing ritual behaviors.</p>
 
-<p><%= render :partial => "pages/call_for_appointment" %></p>
+{% include call-for-appointment.md %}
 

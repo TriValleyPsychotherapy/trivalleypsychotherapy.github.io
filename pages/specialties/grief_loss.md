@@ -1,3 +1,13 @@
+---
+layout: page
+title: Grief and Loss
+menuInclude: yes
+menuLink: yes
+menuTopTitle: Specialties
+menuSubTitle: "Grief and Loss"
+excerpt: A short introduction to the content of this site.
+# end of description at 156 characters ----------| (last 3 chars will be replaced by '...' on overflow)
+---
 
 <p>Grief is your emotional reaction to a significant loss. The words sorrow and heartache are often used to describe feelings of grief. Whether you lose a beloved person, animal, place, or object, or a valued way of life (such as your job, marriage, or good health), some level of grief will naturally follow.</p>
 
@@ -11,6 +21,6 @@
 
 <p>If you find that your grief is making it difficult to function for more than a week or two or if you have trouble functioning for longer than a couple of weeks because of depression or anxiety, Dr. Christine Dickson, Ph.D. can help. Work with psychotherapist, Dr. Christine Dickson to move toward the final stage of grief, which is acceptance. </p>
 
-<p><%= render :partial => "pages/call_for_appointment" %></p>
+{% include call-for-appointment.md %}
 
 

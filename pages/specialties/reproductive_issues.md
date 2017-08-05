@@ -1,3 +1,13 @@
+---
+layout: page
+title: Reproductive Issues
+menuInclude: yes
+menuLink: yes
+menuTopTitle: Specialties
+menuSubTitle: "Reproductive Issues"
+excerpt: A short introduction to the content of this site.
+# end of description at 156 characters ----------| (last 3 chars will be replaced by '...' on overflow)
+---
 
 <h4>Miscarriage</h4>
 
@@ -19,4 +29,4 @@
 
 <p>If you are a woman struggling with the pain of infertility and/or miscarriage, Dr. Christine Dickson, Ph.D. can help.  Work with psychotherapist, Dr. Christine Dickson to find peace in the face of your pain and live a happy, purpose filled life.</p> 
 
-<p><%= render :partial => "pages/call_for_appointment" %></p>
+{% include call-for-appointment.md %}

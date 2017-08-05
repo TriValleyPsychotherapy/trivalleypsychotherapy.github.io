@@ -1,3 +1,13 @@
+---
+layout: page
+title: Sleep Problems
+menuInclude: yes
+menuLink: yes
+menuTopTitle: Specialties
+menuSubTitle: "Sleep Problems"
+excerpt: A short introduction to the content of this site.
+# end of description at 156 characters ----------| (last 3 chars will be replaced by '...' on overflow)
+---
 
 <p>Insomnia is a common sleep disorder that affects millions of Americans. If you have insomnia, you may:</p>
 
@@ -20,4 +30,4 @@
 
 <p>Research shows that insomnia is a risk factor for depression, anxiety, alcohol abuse, and drug abuse. Dr. Christine Dickson, Ph.D. understands how important sleep is for a healthy, happy life. If you are struggling with insomnia psychotherapist, Dr. Christine Dickson can help.</p> 
 
-<p><%= render :partial => "pages/call_for_appointment" %></p>
+{% include call-for-appointment.md %}

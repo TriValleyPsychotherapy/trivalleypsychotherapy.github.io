@@ -1,10 +1,13 @@
-<div class="panel-heading">
-<h2 class="panel-title">
-Sexual Orientation
-</h2>
-</div>
-
-<div class="panel-body">
+---
+layout: page
+title: Sexual Orientation
+menuInclude: yes
+menuLink: yes
+menuTopTitle: Specialties
+menuSubTitle: "Sexual Orientation"
+excerpt: A short introduction to the content of this site.
+# end of description at 156 characters ----------| (last 3 chars will be replaced by '...' on overflow)
+---
 
 <p>Sexuality is an important part of who we are as humans. Beyond the ability to reproduce, sexuality also defines how we see ourselves and how we physically relate to others. Sexual orientation is a term used to refer to a person's emotional, romantic, and sexual attraction to individuals of a particular gender.</p>
 
@@ -25,6 +28,4 @@ Sexual Orientation
 
 <p>If you are struggling with your sexual orientation, Dr. Christine Dickson, Ph.D. can help. Work with psychotherapist, Dr. Christine Dickson to develop strategies to cope with the prejudice associated with your sexual orientation and the damaging effects of bias and stereotypes. </p>
 
-<p><%= render :partial => "pages/call_for_appointment" %></p>
-
-</div>
+{% include call-for-appointment.md %}

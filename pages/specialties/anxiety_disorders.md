@@ -1,3 +1,13 @@
+---
+layout: page
+title: Anxiety Disorders
+menuInclude: yes
+menuLink: yes
+menuTopTitle: Specialties
+menuSubTitle: "Anxiety Disorders"
+excerpt: A short introduction to the content of this site.
+# end of description at 156 characters ----------| (last 3 chars will be replaced by '...' on overflow)
+---
 
 <p>Anxiety is a normal human emotion that everyone experiences at times. Many people feel anxious, or nervous, when faced with a problem at work, before taking a test, or making an important decision.</p> 
 
@@ -9,4 +19,4 @@
 
 <p>Dr. Christine Dickson, Ph.D. understands the importance of helping you cope with the pain and distress of an anxiety disorder. Whether you are struggling with panic disorder, social anxiety, a specific phobia, or generalized anxiety disorder, psychotherapist Dr. Christine Dickson can help you break the cycle of anxiety.</p>
 
-<p><%= render :partial => "pages/call_for_appointment" %></p>
+{% include call-for-appointment.md %}
