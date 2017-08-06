@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Obsessive Compulsive Disorder"
+title: Obsessive Compulsive Disorder
 menuInclude: yes
 menuLink: yes
 menuTopTitle: Specialties
